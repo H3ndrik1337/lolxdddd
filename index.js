@@ -6,4 +6,4 @@ bot.on("message", function(message) {
     console.log(message.content);
 });
 
-bot.login(TOKEN);
+client.login(process.env.TOKEN);
